@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.feedbackSection {
+    text-align: center;
+}
+.feedbackSectionTitle {
+    margin-bottom: 20px;
+}
+
+.feedbackBtn {
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    background: linear-gradient(#302f32, #91e6f7e9, #302f32 ) ;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 20px; 
+    margin-bottom: 15px;  
+}
+.feedbackBtn:hover,
+.feedbackBtn:focus {
+    background: linear-gradient(#302f32, #89b423e9, #302f32);
+    transform: scale(1.2);
+}
+.feedbackBtn:last-child {
+    margin-right: 0px;
+}
+.statisticsTitle {
+    margin-bottom: 15px;
+}
+.feedbackStatisticList {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.Statistics {
+    display: block;
+}
+.statisticListItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: linear-gradient(#302f32, #91e6f7e9, #302f32);
+    }
+  
+.total {
+    border-radius: 4px;
+    background: linear-gradient(#302f32, #91e6f7e9,#302f32);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.positive {
+    border-radius: 4px;
+    background: linear-gradient(#302f32, #91e6f7e9, #302f32);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.feedback {
+    display: block;
+    background: linear-gradient(to bottom right, #4b484b, #7d7b7de9, #4f575c);
+    border-radius: 6px;
+    padding: 20px;
+}
