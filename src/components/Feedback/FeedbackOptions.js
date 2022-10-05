@@ -7,6 +7,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         options.map(option => <button key={option} className={css.feedbackBtn} type="button" onClick={onLeaveFeedback}>{option}</button>)
     }  
     </div >
+    
 }
     
 FeedbackOptions.propTypes = {
